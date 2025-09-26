@@ -1,4 +1,69 @@
 body {
     color: white;
-    background-color: black;
+    background-color: #0D47A1;
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    background-color: #0D47A1;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0px;
+    color: white;
+}
+
+section {
+    background-color: #1565C0;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.videoaulas {
+    margin: 20px;
+    margin-top: 60px; 
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    margin: 20px;
+    margin-top: 0px;
+    gap: 5px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 300px;
+}
+
+.videos img:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+    border: 2px white solid;
 }
